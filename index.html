@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Cinema Troisi</title>
+    <meta name="description" content="Cinema Troisi: apertura Settembre 2021">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css?v=20210819" type="text/css" media="screen">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self';base-uri 'none'; object-src 'self';font-src 'self';style-src 'self';img-src 'self'">
+</head>
+
+<body>
+    <header></header>
+
+    <div class="container">
+
+        <div id="text-pre-hero">Apertura con esclusiva nazionale<br>dal 21 Settembre di</div>
+
+        <div class="hero">
+            <picture>
+                <img src="assets/img/titane.svg"
+                    alt="Apertura con esclusiva nazionale dal 21 Settembre di Titane, un film di Julia Ducournau">
+        </div>
+
+        <div id="countdown">
+            <ul>
+                <li><span id="days"></span>giorni</li>
+                <li><span id="hours"></span>ore</li>
+                <li><span id="minutes"></span>minuti</li>
+                <li><span id="seconds"></span>secondi</li>
+            </ul>
+        </div>
+        <div id="content" class="aftercountdown">
+            <span></span>
+        </div>
+
+        <div id="biglietti">Biglietti disponibili dalle ore 9.00 del 10 Settembre</div>
+
+        <div class="loghi-footer">
+            <picture>
+                <source media="(orientation: landscape)" srcset="assets/img/loghi-desktop.svg">
+                <source media="(orientation: portrait)" srcset="assets/img/loghi-mobile.svg">
+
+                <img src="assets/img/loghi-desktop.svg" alt="Loghi">
+            </picture>
+        </div>
+
+    </div>
+
+    <footer></footer>
+
+    <script src="assets/scripts/countdown.js" defer></script>
+</body>
+
+</html>
